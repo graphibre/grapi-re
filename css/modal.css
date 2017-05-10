@@ -1,0 +1,26 @@
+#overlay3{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(50, 50, 50, 0.8);
+    z-index: 1000;
+}
+#overlay3:target{
+    display: block;
+}
+.popup_block{
+    background: #fff; 
+    padding: 20px;
+    position: relative;
+    margin: 4vh auto;
+    width: 80%;
+}
+img.btn_close {
+    float: right;
+    margin: -18px -18em 0 0;
+}
+
+img.big {
+    width: 100%;
+    max-width: 30em;
+}
